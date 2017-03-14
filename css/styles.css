@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+/* common */
+
+body {
+  font-size: 14px;
+  font-family: Verdana, sans-serif;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 2;
+}
+
+.btn {
+  display: inline-block;
+  width: 290px;
+  line-height: 45px;
+  background: #fff;
+  text-align: center;
+  color: #f39800;
+  border-radius: 5px; /* 角丸を付けてる*/
+  opacity: 0.9; /* 透明度を表す */
+}
+
+.btn:hover { /*マウスオーバーした時の処理*/
+  opacity: 1;
+}
+
+/* header */
+
+header {
+  background: url('../img/bg.png');
+  background-size: cover;
+}
+
+header .container {
+  width: 820px;
+  margin: 0 auto;
+  height: 320px;
+  padding-top: 10px;
+}
+
+header h1, header p {
+  color: #fff;
+}
+
+header p {
+  padding-top: 50px;
+}
+
+header h1 {
+  font-size: 34px;
+  margin-bottom: 50px;
+}
