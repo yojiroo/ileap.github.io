@@ -44,36 +44,34 @@ section:nth-child(odd){ /*奇数部分を選択している*/
 }
 
 section .container{
-  width: 820px;
+  width: 900px;
   margin: 0 auto;
 }
 
 section h2 {
-  font-size: 20px;
+  font-size: 40px;
   text-align: center;
   margin: 0 0 90px;
   font-weight: normal; /* フォントの太さを指定*/
 }
 
 section:not(.call-to-action)
-h2:after{
+ h2:after{
  /*content: '- title -' */
-  display: block;
-  font-size: 18px;
-  color: #aaa;
-  padding-top: 10px;
+
 }
+
 /* header */
 
 header {
-  background: url('../img/kouho1.jpg');
+  background: url('../img/givebig.jpg');
   background-size: cover;
 }
 
 header .container {
   width: 820px;
   margin: 0 auto;
-  height: 750px;
+  height: 1000px;
   padding-top: 10px;
   position: relative;
   overflow: hidden;
@@ -101,22 +99,28 @@ header img {
 /* features */
 
 .features h2:after{
-  content: '- Features -';
+  content: ' Features';
+  display: block;
+  font-size: 20px;
+  color: #aaa;
+  padding-top: 10px;
 }
+
 
 .desc{
-  width: 360px;
+  width: 380px;
 }
 
-.pull-right{
+.pull-right {
   float: right;
-  padding-left: 40px;
+  padding-left: 100px;
 }
 
-.pull-left{
+.pull-left {
   float: left;
-  padding-right: 40px;
+  padding-right: 100px;
 }
+
 
 .row{
   overflow: hidden;/*はみ出た部分の表示の仕方*/
@@ -135,6 +139,10 @@ header img {
 
 .voices h2:after{
   content: '- Staff -';
+  display: block;
+  font-size: 18px;
+  color: #aaa;
+  padding-top: 10px;
 }
 
 .user img{
@@ -147,12 +155,19 @@ header img {
   top: -60px;
 }
 
+.space{
+  height: 100px;
+}
+
 .user{
   background: #fff;
+  border-color: orange;
+  border-width: 4px;
+  border-style: solid;
   width: 250px;
   box-sizing: border-box;/*ボックスのサイズの算出方法を指定*/
   /*border-boxでpadding と border の幅を要素の幅と高さに含める.*/
-  padding: 65px 40px 26px;
+  padding: 65px 40px 60px;
   position: relative;
 }
 
